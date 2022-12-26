@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll The Dice</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="dice-wrapper">
+            <img  id="die-1">
+            <img  id="die-2">
+        </div>
+        <p id="total"></p>
+    </div>
+
+    <div class="container2">
+        <img src="boy1.png" id="boy-1">
+        <h3 id="win"></h3>
+        <div class="player1">
+            <h2>Score</h2>
+            <h1 id="score1"> </h1>
+        </div>
+        <p><b>player1</b></p>
+    </div>
+
+    <div class="container3">
+        <img src="boy2.png" id="boy-2">
+        <h3 id="win2"></h3>
+        <div class="player2">
+            <h2 >Score</h2>
+            <h1 id="score2"> </h1>
+        </div>
+       <p><b>player2</b></p>
+    </div>
+
+    <div class= "roll"><button  onclick="roll()"><b>ROLL</b></button></div>
+    <div class= "roll"><button id="inst" onclick="instruct()"><b>Rules</b></button></div>
+    <div class= "roll"><button id="Rest" onclick="Res()"><b>Restart</b></button></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
